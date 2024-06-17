@@ -3,6 +3,6 @@ eureka:
     register-with-eureka: true
     fetch-registry: true
     service-url:
-      defaultZone: http://truflux-service-registry:8762/eureka/
+      defaultZone: http://truflux-service-registry:8761/eureka/
   instance:
     hostname: truflux-service-registry
